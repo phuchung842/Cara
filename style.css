@@ -42,6 +42,19 @@
         margin: 40px 0;
     }
     
+    button.normal {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 30px;
+        color: black;
+        background-color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.2s;
+    }
+    
     body {
         width: 100%;
     }
@@ -205,6 +218,13 @@
         text-align: center;
     }
     
+    #product1 .pro-cotainer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    
     #product1 .pro {
         width: 23%;
         min-width: 250px;
@@ -267,4 +287,37 @@
         position: absolute;
         bottom: 20px;
         right: 10px;
+    }
+    
+    #banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(/img/banner/b2.jpg);
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #banner h4 {
+        color: white;
+        font-size: 16px;
+    }
+    
+    #banner h2 {
+        color: white;
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    
+    #banner h2 span {
+        color: red;
+    }
+    
+    #banner button:hover {
+        background: #088178;
+        color: white;
     }
