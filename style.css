@@ -681,6 +681,13 @@ footer .copyright {
 }
 
 
+/* Blog */
+
+#page-header.blog-header {
+    background-image: url(/img/banner/b19.jpg);
+}
+
+
 /* Media Query */
 
 @media (max-width: 799px) {
