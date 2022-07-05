@@ -1379,6 +1379,28 @@ footer .copyright {
     #subtotal {
         width: 100%;
     }
+    /* Login Page */
+    .login-html {
+        height: auto;
+    }
+    .login-body {
+        height: auto;
+    }
+    #login .login-contain {
+        flex-direction: column;
+    }
+    #login .login-contain .login-right {
+        width: 100%;
+        padding: 20px 30px;
+    }
+    #login .login-contain .login-left {
+        width: 100%;
+        background-color: #088178;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 349px) {
