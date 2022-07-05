@@ -42,6 +42,10 @@ p {
     margin: 40px 0;
 }
 
+.section-p2 {
+    padding: 50px 100px;
+}
+
 button.normal {
     font-size: 14px;
     font-weight: 600;
@@ -1024,6 +1028,87 @@ footer .copyright {
     border: 1px solid #e2e9e1;
     padding: 10px;
     font-size: 13px;
+}
+
+
+/* Login Page */
+
+.login-html {
+    height: 100%;
+}
+
+.login-body {
+    height: 100%;
+}
+
+#login {
+    height: 100%;
+}
+
+#login .login-contain {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#login .login-contain .login-left {
+    width: 40%;
+    background-color: #088178;
+    padding: 40px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#login .login-contain .login-left h2 {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#login .login-contain .login-left input {
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 30px;
+    border: 1px solid #e1e1e1;
+}
+
+#login .login-contain .login-left .login-field {
+    display: flex;
+    flex-direction: column;
+}
+
+#login .login-contain .login-left .login-field label {
+    color: white;
+    padding-bottom: 10px;
+}
+
+#login .login-contain .login-right {
+    width: 60%;
+    padding: 40px;
+    background-color: #e3e6f3;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#login .login-contain .login-right h2 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+#login .login-contain .login-right .register-field {
+    display: flex;
+    flex-direction: column;
+}
+
+#login .login-contain .login-right .register-field input {
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#login .login-contain .login-right .register-field label {
+    padding-bottom: 10px;
 }
 
 
