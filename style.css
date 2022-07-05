@@ -1054,9 +1054,22 @@ footer .copyright {
 #login .login-contain .login-left {
     width: 40%;
     background-color: #088178;
-    padding: 40px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#login .login-contain .login-left .login-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#login .login-contain .login-left .login-detail a {
+    color: white;
+    text-decoration: none;
 }
 
 #login .login-contain .login-left h2 {
@@ -1082,12 +1095,14 @@ footer .copyright {
     padding-bottom: 10px;
 }
 
+#login .login-contain .login-left .login-field button {
+    margin: 30px 0;
+}
+
 #login .login-contain .login-right {
     width: 60%;
-    padding: 40px;
+    padding: 40px 60px;
     background-color: #e3e6f3;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
 #login .login-contain .login-right h2 {
@@ -1109,6 +1124,12 @@ footer .copyright {
 
 #login .login-contain .login-right .register-field label {
     padding-bottom: 10px;
+}
+
+#login .login-contain .login-right button {
+    background-color: #088178;
+    color: white;
+    margin-top: 30px;
 }
 
 
