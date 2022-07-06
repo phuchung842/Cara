@@ -1049,6 +1049,7 @@ footer .copyright {
     height: 100%;
     display: flex;
     justify-content: center;
+    padding: 40px 120px;
 }
 
 #login .login-contain .login-left {
@@ -1229,6 +1230,10 @@ footer .copyright {
     }
     #form-details form {
         width: 50%;
+    }
+    /* Login Page */
+    #login .login-contain {
+        padding: 0;
     }
 }
 
