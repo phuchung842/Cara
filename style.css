@@ -1049,7 +1049,7 @@ footer .copyright {
     height: 100%;
     display: flex;
     justify-content: center;
-    padding: 40px 120px;
+    padding: 0px 120px;
 }
 
 #login .login-contain .login-left {
@@ -1101,7 +1101,7 @@ footer .copyright {
 }
 
 #login .login-contain .login-right {
-    width: 60%;
+    width: 45%;
     padding: 40px 60px;
     background-color: #e3e6f3;
 }
