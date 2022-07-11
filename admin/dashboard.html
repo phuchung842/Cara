@@ -7,17 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cara Ecomere Admin </title>
     <link rel="stylesheet" href="/admin/styleadmin.css">
+    <link rel="stylesheet" href="/admin/styleadmin_@media1200px.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 </head>
 
 <body>
     <div class="container">
+        <!-- ASIDE -->
         <aside>
             <div class="top">
                 <div class="logo">
                     <img src="../img/logo.png" alt="">
                 </div>
-                <div classr "close" id="close-btn">
+                <div class="close" id="close-btn">
                     <i class="far fa-times"></i>
                 </div>
             </div>
@@ -27,7 +29,7 @@
                     <i class="far fa-tachometer"></i>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="active">
                     <i class="far fa-users"></i>
                     <h3>Customer</h3>
                 </a>
@@ -66,6 +68,76 @@
                 </a>
             </div>
         </aside>
+        <!--  -->
+        <!-- MAIN -->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insight">
+                <!-- SALES -->
+                <div class="sales">
+                    <i class="far fa-analytics"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>%25,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg viewBox="0 0 360 360">
+                                <path class="circle" stroke-dasharray="810, 1000" d="M180 20.845 a 159.155 159.155 0 0 1 0 318.31 a 159.155 159.155 0 0 1 0 -318.31"/>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted"> Last 24 hours</small>
+                </div>
+                <!--  -->
+                <!-- EXPENSES -->
+                <div class="expenses">
+                    <i class="far fa-hand-holding-usd"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>%14,160</h1>
+                        </div>
+                        <div class="progress">
+                            <svg viewBox="0 0 360 360">
+                                <path class="circle" stroke-dasharray="620, 1000" d="M180 20.845 a 159.155 159.155 0 0 1 0 318.31 a 159.155 159.155 0 0 1 0 -318.31"/>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted"> Last 24 hours</small>
+                </div>
+                <!--  -->
+                <!-- INCOME -->
+                <div class="income">
+                    <i class="far fa-hands-usd"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>%10,864</h1>
+                        </div>
+                        <div class="progress">
+                            <svg viewBox="0 0 360 360">
+                                <path class="circle" stroke-dasharray="440, 1000" d="M180 20.845 a 159.155 159.155 0 0 1 0 318.31 a 159.155 159.155 0 0 1 0 -318.31"/>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted"> Last 24 hours</small>
+                </div>
+                <!--  -->
+            </div>
+        </main>
     </div>
 </body>
 
