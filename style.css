@@ -157,7 +157,7 @@ body {
     height: 90vh;
     width: 100%;
     /* background config */
-    background-image: url("/img/hero4.png");
+    background-image: url("./img/hero4.png");
     background-size: cover;
     background-position: top 25% right 0;
     /* display config */
@@ -176,7 +176,7 @@ body {
 }
 
 #hero button {
-    background-image: url("/img/button.png");
+    background-image: url("./img/button.png");
     background-color: transparent;
     background-repeat: no-repeat;
     color: #088178;
@@ -323,7 +323,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/img/banner/b2.jpg);
+    background-image: url("./img/banner/b2.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -362,7 +362,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/img/banner/b17.jpg);
+    background-image: url("./img/banner/b17.jpg");
     width: 48%;
     height: 50vh;
     background-size: cover;
@@ -371,7 +371,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-    background-image: url(/img/banner/b10.jpg);
+    background-image: url("./img/banner/b10.jpg");
     background-position: center;
 }
 
@@ -411,7 +411,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/img/banner/b7.jpg);
+    background-image: url("./img/banner/b7.jpg");
     width: 31%;
     height: 30vh;
     background-size: cover;
@@ -421,12 +421,12 @@ body {
 }
 
 #banner3 .banner-box2 {
-    background-image: url(/img/banner/b4.jpg);
+    background-image: url("./img/banner/b4.jpg");
     background-position: right 30% center;
 }
 
 #banner3 .banner-box3 {
-    background-image: url(/img/banner/b18.jpg);
+    background-image: url("./img/banner/b18.jpg");
     background-position: right 20% center;
 }
 
@@ -447,7 +447,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(/img/banner/b14.png);
+    background-image: url("./img/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -564,7 +564,7 @@ footer .copyright {
 /* Shop Page */
 
 #page-header {
-    background-image: url(/img/banner/b1.jpg);
+    background-image: url("./img/banner/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -688,7 +688,7 @@ footer .copyright {
 /* Blog */
 
 #page-header.blog-header {
-    background-image: url(/img/banner/b19.jpg);
+    background-image: url("./img/banner/b19.jpg");
 }
 
 #blog {
@@ -763,7 +763,7 @@ footer .copyright {
 /* About */
 
 #page-header.about-header {
-    background-image: url(/img/about/banner.png);
+    background-image: url("./img/about/banner.png");
 }
 
 #about-head {
@@ -975,6 +975,10 @@ footer .copyright {
     font-size: 13px;
 }
 
+#cart table tbody td .far.fa-times-circle {
+    color: red;
+}
+
 #cart-add {
     display: flex;
     justify-content: space-between;
@@ -1049,6 +1053,7 @@ footer .copyright {
     height: 100%;
     display: flex;
     justify-content: center;
+    padding: 0px 120px;
 }
 
 #login .login-contain .login-left {
@@ -1100,7 +1105,7 @@ footer .copyright {
 }
 
 #login .login-contain .login-right {
-    width: 60%;
+    width: 45%;
     padding: 40px 60px;
     background-color: #e3e6f3;
 }
@@ -1229,6 +1234,16 @@ footer .copyright {
     }
     #form-details form {
         width: 50%;
+    }
+    /* Login Page */
+    #login .login-contain {
+        padding: 0;
+    }
+    #login .login-contain .login-left {
+        width: 45%;
+    }
+    #login .login-contain .login-right {
+        width: 55%;
     }
 }
 
