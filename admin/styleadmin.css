@@ -140,13 +140,13 @@ aside {
 aside .top {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 1.4rem;
     /* background: white; */
 }
 
 aside .logo {
-    width: 100%;
+    width: 120px;
 }
 
 aside .logo img {

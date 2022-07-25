@@ -1,8 +1,0 @@
-@media (max-width: 1400px) {
-    main .insight {
-        flex-direction: column;
-    }
-    main .insight>div {
-        width: 100%;
-    }
-}
